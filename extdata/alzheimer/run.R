@@ -35,7 +35,7 @@ for(i in 1:length(file)){
 }
 snp<-unique(snp)
 input2<-unique(data[data$MarkerName %in% snp,])
-write.table(input2,file="m6A-GWAS-hit-alzheimer.stage1.20191127.txt",sep="\t",quote=F,col.names=NA,row.names = T)
+write.table(input2,file="m6A-GWAS-hit-alzheimer.stage2.20191127.txt",sep="\t",quote=F,col.names=NA,row.names = T)
 
 
 
