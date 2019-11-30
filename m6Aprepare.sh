@@ -21,14 +21,18 @@ data<-data[,c(1,11,2:10)]
 data<-unique(data)
 write.table(data,file="m6ASNP.db147.hg19.uni.txt",sep="\t",quote=F,col.names = T,row.names = F)
 
-perl -p -i -e 's/Functional //g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/miCLIP://g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/miCLIP://g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/miCLIP\&//g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/PA-m6A-Seq://g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/\(//g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/\)//g' m6ASNP.db147.hg19.uni.txt
-perl -p -i -e 's/ SNV//g' m6ASNP.db147.hg19.uni.txt
+input=m6ASNP.db147.hg19.uni.txt
+perl -p -i -e 's/Functional //g' $input
+perl -p -i -e 's/' $input
+perl -p -i -e 's/miCLIP://g' $input
+perl -p -i -e 's/miCLIP\&//g' $input
+perl -p -i -e 's/PA-m6A-Seq://g' $input
+perl -p -i -e 's/\(//g' $input
+perl -p -i -e 's/\)//g' $input
+perl -p -i -e 's/ SNV//g' $input
+perl -p -i -e 's/MeRIP-Seq://g' $input
+perl -p -i -e 's/Prediction://g' $input
+
 
 ## prepare the txt files for m6A-SNP
 data<-read.table("m6ASNP.db147.hg19.txt",head=T,sep="\t")
@@ -37,11 +41,15 @@ data<-data[,c(1,11,2:10)]
 data<-unique(data)
 write.table(data,file="m6ASNP.db147.hg19.uni.bed",sep="\t",quote=F,col.names = T,row.names = F)
 
-perl -p -i -e 's/Functional //g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/miCLIP://g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/miCLIP://g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/miCLIP\&//g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/PA-m6A-Seq://g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/\(//g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/\)//g' m6ASNP.db147.hg19.uni.bed
-perl -p -i -e 's/ SNV//g' m6ASNP.db147.hg19.uni.bed
+input=m6ASNP.db147.hg19.uni.bed
+perl -p -i -e 's/Functional //g' $input
+perl -p -i -e 's/' $input
+perl -p -i -e 's/miCLIP://g' $input
+perl -p -i -e 's/miCLIP\&//g' $input
+perl -p -i -e 's/PA-m6A-Seq://g' $input
+perl -p -i -e 's/\(//g' $input
+perl -p -i -e 's/\)//g' $input
+perl -p -i -e 's/ SNV//g' $input
+perl -p -i -e 's/MeRIP-Seq://g' $input
+perl -p -i -e 's/Prediction://g' $input
+
