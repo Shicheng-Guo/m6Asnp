@@ -1,3 +1,19 @@
+## Download all the m6A-SNP files
+
+## merge all the m6A-SNPs
+setwd("/gpfs/home/guosa/hpc/project/m6A")
+file=list.files(pattern="Human")
+tR<-c("Chromosome","Position","Rs_ID","Reference_Base","Alterative_Base","Gene","MutType","m6A_Function","MutRegion","Confidence_Level")
+merge<-c()
+for(i in 1:length(file)){
+  temp<-read.table(file[i],head=T,sep="\t")
+  temp<-temp[,match(tR,colnames(temp))]
+  merge<-rbind(merge,temp)
+  print(i)
+}
+write.table(merge,file="m6ASNP.db147.hg19.txt",sep="\t",quote=F,col.names = T,row.names = F)
+
+
 ## prepare the bed files for m6A-SNP
 data<-read.table("m6ASNP.db147.hg19.txt",head=T,sep="\t")
 data$start=data$Position-1
