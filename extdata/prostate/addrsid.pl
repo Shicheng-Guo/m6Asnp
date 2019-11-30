@@ -1,4 +1,3 @@
-
 use strict;
 use Cwd;
 my $dbsnp153="dbSNP153.hg19.vcf";
@@ -18,10 +17,9 @@ my $input=shift @ARGV;
 open F2, $input;
 while(<F2>){
 my @line=split/\s+/;
-my $chr=$line[3];
-my $pos=$line[4];
-my $ref=uc $line[6];
-my $alt=uc $line[5];
+my($chr,$pos,$ref,$alt)=split/_/,$line[0];
+$ref=uc $line[6];
+$alt=uc $line[5];
 my $id="$chr-$pos-$ref-$alt";
 if(defined $data{$id}){
 $line[2]=$data{$id};
