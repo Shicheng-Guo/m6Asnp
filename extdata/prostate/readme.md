@@ -4,5 +4,4 @@
 * KLK3 (19_51364623_A_G, [PSA](https://www.uniprot.org/uniprot/P07288)) in the raw data are mistakely recorded (19_51364623_A_G NA      NA,19,3.34e-47)
 * Re-code and take the first column as the id resource (19_51364623_A_G) to match db153 SNPs
 * Confuse about some strange records in the raw data such as 7_39119_T_<CN2> 7:39119:T:<CN2>:75937
-* 
 
