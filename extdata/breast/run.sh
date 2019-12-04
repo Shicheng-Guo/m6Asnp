@@ -1,4 +1,4 @@
-s######$=dxd
+s######$=dxdx
 
 cd /gpfs/home/guosa/hpc/project/m6A/breast
 
