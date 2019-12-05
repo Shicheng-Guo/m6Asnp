@@ -1,0 +1,67 @@
+Field Name	Description	Analysis
+var_name	Unique variant identifier (chromosome_build37position_a0_a1)	
+phase3_1kg_id	Identifier from Phase 3 of 1000 Genomes	
+chr	chromosome	
+position_b37	Build37/Hg19 position	
+a0	Reference allele	
+a1	Effect Allele	
+bcac_onco_icogs_gwas_eaf_controls	Frequency in controls	Combined Oncoarray, iCOGS GWAS meta analysis
+bcac_onco_icogs_gwas_beta	Beta	Combined Oncoarray, iCOGS GWAS meta analysis
+bcac_onco_icogs_gwas_se	Standard Error	Combined Oncoarray, iCOGS GWAS meta analysis
+bcac_onco_icogs_gwas_P1df	P-value	Combined Oncoarray, iCOGS GWAS meta analysis
+bcac_onco2_r2	Imputation r-square	Oncoarray
+bcac_onco2_eaf_controls	Frequency in controls	Oncoarray
+bcac_onco2_beta	Beta	Oncoarray
+bcac_onco2_se	Standard Error	Oncoarray
+bcac_onco2_P1df_Wald	P-value Wald test	Oncoarray
+bcac_onco2_P1df_LRT	P-value likelihood ratio test	Oncoarray
+bcac_icogs2_r2	Imputation r-square	iCOGS
+bcac_icogs2_eaf_controls	Frequency in controls	iCOGS
+bcac_icogs2_beta	Beta	iCOGS
+bcac_icogs2_se	Standard Error	iCOGS
+bcac_icogs2_P1df_Wald	P-value Wald test	iCOGS
+bcac_icogs2_P1df_LRT	P-value likelihood ratio test	iCOGS
+bcac_gwas_all_eaf_controls	Frequency in controls	GWAS
+bcac_gwas_all_beta	Beta	GWAS
+bcac_gwas_all_se	Standard Error	GWAS
+bcac_gwas_all_P1df	P-value	GWAS
+bcac_onco_icogs_gwas_erpos_eaf_controls	Frequency in controls	Combined Oncoarray, iCOGS GWAS meta analysis ER Positive disease
+bcac_onco_icogs_gwas_erpos_beta	Beta	Combined Oncoarray, iCOGS GWAS meta analysis ER Positive disease
+bcac_onco_icogs_gwas_erpos_se	Standard Error	Combined Oncoarray, iCOGS GWAS meta analysis ER Positive disease
+bcac_onco_icogs_gwas_erpos_P1df	P-value	Combined Oncoarray, iCOGS GWAS meta analysis ER Positive disease
+bcac_onco2_erpos_r2	Imputation r-square	Oncoarray ER Positive disease
+bcac_onco2_erpos_eaf_controls	Frequency in controls	Oncoarray ER Positive disease
+bcac_onco2_erpos_beta	Beta	Oncoarray ER Positive disease
+bcac_onco2_erpos_se	Standard Error	Oncoarray ER Positive disease
+bcac_onco2_erpos_P1df_Wald	P-value Wald test	Oncoarray ER Positive disease
+bcac_onco2_erpos_P1df_LRT	P-value likelihood ratio test	Oncoarray ER Positive disease
+bcac_icogs2_erpos_r2	Imputation r-square	iCOGs ER Positive disease
+bcac_icogs2_erpos_eaf_controls	Frequency in controls	iCOGs ER Positive disease
+bcac_icogs2_erpos_beta	Beta	iCOGs ER Positive disease
+bcac_icogs2_erpos_se	Standard Error	iCOGs ER Positive disease
+bcac_icogs2_erpos_P1df_Wald	P-value Wald test	iCOGs ER Positive disease
+bcac_icogs2_erpos_P1df_LRT	P-value likelihood ratio test	iCOGs ER Positive disease
+bcac_gwas_erpos_eaf_controls	Frequency in controls	GWAS ER Positive disease
+bcac_gwas_erpos_beta	Beta	GWAS ER Positive disease
+bcac_gwas_erpos_se	Standard Error	GWAS ER Positive disease
+bcac_gwas_erpos_P1df	P-value	GWAS ER Positive disease
+bcac_onco_icogs_gwas_erneg_eaf_controls	Frequency in controls	Combined Oncoarray, iCOGS GWAS meta analysis ER Negative disease
+bcac_onco_icogs_gwas_erneg_beta	Beta	Combined Oncoarray, iCOGS GWAS meta analysis ER Negative disease
+bcac_onco_icogs_gwas_erneg_se	Standard Error	Combined Oncoarray, iCOGS GWAS meta analysis ER Negative disease
+bcac_onco_icogs_gwas_erneg_P1df	P-value	Combined Oncoarray, iCOGS GWAS meta analysis ER Negative disease
+bcac_onco2_erneg_r2	Imputation r-square	Oncoarray ER Negative disease
+bcac_onco2_erneg_eaf_controls	Frequency in controls	Oncoarray ER Negative disease
+bcac_onco2_erneg_beta	Beta	Oncoarray ER Negative disease
+bcac_onco2_erneg_se	Standard Error	Oncoarray ER Negative disease
+bcac_onco2_erneg_P1df_Wald	P-value Wald test	Oncoarray ER Negative disease
+bcac_onco2_erneg_P1df_LRT	P-value likelihood ratio test	Oncoarray ER Negative disease
+bcac_icogs2_erneg_r2	Imputation r-square	iCOGs ER Negative disease
+bcac_icogs2_erneg_eaf_controls	Frequency in controls	iCOGs ER Negative disease
+bcac_icogs2_erneg_beta	Beta	iCOGs ER Negative disease
+bcac_icogs2_erneg_se	Standard Error	iCOGs ER Negative disease
+bcac_icogs2_erneg_P1df_Wald	P-value Wald test	iCOGs ER Negative disease
+bcac_icogs2_erneg_P1df_LRT	P-value likelihood ratio test	iCOGs ER Negative disease
+bcac_gwas_erneg_eaf_controls	Frequency in controls	GWAS ER Negative disease
+bcac_gwas_erneg_beta	Beta	GWAS ER Negative disease
+bcac_gwas_erneg_se	Standard Error	GWAS ER Negative disease
+bcac_gwas_erneg_P1df	P-value	GWAS ER Negative disease
