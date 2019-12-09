@@ -1,0 +1,14 @@
+Disease/Trait,Abbreviation,Study/Consortium,Sample size (case/control),Reference,PMID,Year,Population,File name,Link,Number of SNPs
+Breast Cancer,BRCA,BCAC/DRIVE/iCOGS,228951 (122977/105974),Michailidou et al. Nature,29059683,2017,European,oncoarray_bcac_public_release_oct17.txt,http://bcac.ccge.medschl.cam.ac.uk/bcacdata/oncoarray/gwas-icogs-and-oncoarray-summary-results,11792542
+Coronary Artery Disease,CAD,CARDIoGRAMplusC4D,184305 (60801/123504),Nikpay et al. Nature Genetics,26343387,2015,European + South/East Asian + Hispanic/African Americans,cad.add.160614.website.txt,http://www.cardiogramplusc4d.org/data-downloads,9455778
+Depression,DEP,PGC,173005 (59851/113154),Wray et al. Nature Genetics,29700475,2018,European,MDD2018_ex23andMe,https://www.med.unc.edu/pgc/results-and-downloads,13554550
+Inflammatory Bowel Disease,IBD,IIBDGC,34652 (12882/21770),Liu et al. Nature Genetics,26192919,2015,European,EUR.IBD.gwas_info03_filtered.assoc,https://www.ibdgenetics.org/downloads.html,11555662
+Rheumatoid Arthritis,RA,NA,58284 (14361/43923),Okada et al. Nature,24390342,2014,European,RA_GWASmeta_European_v2.txt,http://plaza.umin.ac.jp/~yokada/datasource/software.htm,8747962
+Type 2 Diabetes Mellitus,T2DM,DIAGRAM,159208 (26676/132532),Scott et al. Diabetes,28566273,2017,European,METAANALYSIS_DIAGRAM_SE1.txt,http://diagram-consortium.org/downloads.html,12056346
+,,,,,,,,,,
+Height,HGT,GIANT,693529,Yengo et al. bioRxiv,NA,2018,European,Meta-analysis_Wood_et_al+UKBiobank_2018.txt,https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files,2334001
+Body mass index,BMI,GIANT,681275,Yengo et al. bioRxiv,NA,2018,European,Meta-analysis_Locke_et_al+UKBiobank_2018_UPDATED.txt,https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files,2336269
+High-density lipoproteins,HDL,The Global Lipids Genetics Consortium,188578,Willer et al. Nature Genetics,24097068,2013,European,jointGwasMc_HDL.txt,http://csg.sph.umich.edu/willer/public/lipids2013,2447441
+Low-density lipoproteins,LDL,The Global Lipids Genetics Consortium,188578,Willer et al. Nature Genetics,24097068,2013,European,jointGwasMc_LDL.txt,http://csg.sph.umich.edu/willer/public/lipids2013,2437751
+Cholesterol,CHOL,The Global Lipids Genetics Consortium,188578,Willer et al. Nature Genetics,24097068,2013,European,jointGwasMc_TC.txt,http://csg.sph.umich.edu/willer/public/lipids2013,2446981
+Triglycerides,TRIG,The Global Lipids Genetics Consortium,188578,Willer et al. Nature Genetics,24097068,2013,European,jointGwasMc_TG.txt,http://csg.sph.umich.edu/willer/public/lipids2013,2439432
