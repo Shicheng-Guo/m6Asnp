@@ -5,7 +5,6 @@ Depression,DEP,PGC,173005 (59851/113154),Wray et al. Nature Genetics,29700475,20
 Inflammatory Bowel Disease,IBD,IIBDGC,34652 (12882/21770),Liu et al. Nature Genetics,26192919,2015,European,EUR.IBD.gwas_info03_filtered.assoc,https://www.ibdgenetics.org/downloads.html,11555662
 Rheumatoid Arthritis,RA,NA,58284 (14361/43923),Okada et al. Nature,24390342,2014,European,RA_GWASmeta_European_v2.txt,http://plaza.umin.ac.jp/~yokada/datasource/software.htm,8747962
 Type 2 Diabetes Mellitus,T2DM,DIAGRAM,159208 (26676/132532),Scott et al. Diabetes,28566273,2017,European,METAANALYSIS_DIAGRAM_SE1.txt,http://diagram-consortium.org/downloads.html,12056346
-,,,,,,,,,,
 Height,HGT,GIANT,693529,Yengo et al. bioRxiv,NA,2018,European,Meta-analysis_Wood_et_al+UKBiobank_2018.txt,https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files,2334001
 Body mass index,BMI,GIANT,681275,Yengo et al. bioRxiv,NA,2018,European,Meta-analysis_Locke_et_al+UKBiobank_2018_UPDATED.txt,https://portals.broadinstitute.org/collaboration/giant/index.php/GIANT_consortium_data_files,2336269
 High-density lipoproteins,HDL,The Global Lipids Genetics Consortium,188578,Willer et al. Nature Genetics,24097068,2013,European,jointGwasMc_HDL.txt,http://csg.sph.umich.edu/willer/public/lipids2013,2447441
