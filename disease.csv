@@ -3,29 +3,29 @@ AA,Alopecia Areata,Autoimmune disease affecting the hair follicles resulting in 
 AAV,ANCA-Associated Vasculitis,Inflammation of small blood vessels (vasculitis) associated with antineutrophil cytoplasmic autoantibody (ANCA)
 ALG,Allergy,Involving the immune system reacting to environmental substances (allergens) that are harmless to most people
 AS,Ankylosing Spondylitis,Common inflammatory rheumatic disease (spondyloarthritis) characterized by back pain and progressive spinal stiffness (sacroileitis and spinal inflammation)
-ASM,Asthma,Chronic inflammatory disorder of airways characterised by intermittent cough wheeze and shortness of breath brought on by characteristic triggers and relieved by bronchodilating medications
+ASM,Asthma,Chronic inflammatory disorder of airways characterised by intermittent cough-wheeze-and shortness of breath brought on by characteristic triggers and relieved by bronchodilating medications
 ATD,Autoimmune Thyroid Disease,Autoimmune disease affecting the thyroid gland which may result in over or under activity (hyper- or hypo-thyroidism)
-BD,Behcet's Disease,Chronic relapsing inflammatory disease involving the blood vessels and affecting the mouth eye genitals skin and joints (recurrent aphthous stomatitis, uveitis, genital ulcers, skin lesions and arthritis)
+BD,Behcet's Disease,Chronic relapsing inflammatory disease involving the blood vessels and affecting the mouth-eye-genitals-skin and joints (recurrent aphthous stomatitis-uveitis-genital ulcers-skin lesions and arthritis)
 CEL,Celiac Disease,Disease of small intestine with intolerance of gluten
-CRO,Crohn's Disease,Chronic immune-related inflammatory disorder of digestive tract, most commonly involving ileum and colon
+CRO,Crohn's Disease,Chronic immune-related inflammatory disorder of digestive tract-most commonly involving ileum and colon
 GD,Graves' Disease,Autoimmune disorder resulting in overactive thyroid gland (hyperthyroidism)
 Gt,Gout,Common inflammatory arthritis which may manifest as chronic arthropathy with accumulation of urate crystals as tophaceous deposits (monosodium urate crystal deposition disease)
-IGE,IgE and Allergic Sensitization,Immediate immune reactions mediated by IgE Ab which may affect respiratory (allergic rhinitis atopic asthma) bowel (food allergy) and skin (extrinsic eczema) with allergic sensitisation the interplay between allergen and host in a specific environmental context
-IIM,Idiopathic Inflammatory Myopathies,Disorders of unknown cause characterised by inflammation of muscles (including polymyositis dermatomyositis, and sporadic inclusion body myositis)
+IGE,IgE and Allergic Sensitization,Immediate immune reactions mediated by IgE Ab which may affect respiratory (allergic rhinitis-atopic asthma)-bowel (food allergy) and skin (extrinsic eczema) with allergic sensitisation the interplay between allergen and host in a specific environmental context
+IIM,Idiopathic Inflammatory Myopathies,Disorders of unknown cause characterised by inflammation of muscles (including polymyositis-dermatomyositis-and sporadic inclusion body myositis)
 JIA,Juvenile Idiopathic Arthritis,Chronic childhood arthritis of unknown cause lasting more than 6 weeks
 KD,Kawasaki Disease,Widespread inflammation of blood vessels (medium-sized muscular arteries) with systemic inflammation and signs of mucocutaneous inflammation
-MG,Myasthenia Gravis,Autoimmune neuromuscular disorder resulting in fluctuating and variable weakness (in ocular bulbar limb and respiratory muscles) involving autoantibodies against acetylcholine receptors or receptor-associated proteins
+MG,Myasthenia Gravis,Autoimmune neuromuscular disorder resulting in fluctuating and variable weakness (in ocular-bulbar-limb-and respiratory muscles) involving autoantibodies against acetylcholine receptors or receptor-associated proteins
 MS,Multiple Sclerosis,Common immune-mediated inflammatory demyelinating disease involving the central nervous system
-NAR,Narcolepsy,Common neurological disorder affecting sleep-wake cycles (including daytime sleepiness with cataplexy, hypnagogic hallucinations, and sleep paralysis)
-OA,Osteoarthritis,A progressive, degenerative joint disease, the most common form of arthritis (especially in older persons) causing joint pain and stiffness typically in hands, knees, hips and spine
-PBC,Primary Biliary Cholangitis,Primary biliary cholangitis (previously referred to as primary biliary cirrhosis) involving immune-mediated destruction of small intralobular bile ducts and cholestasis, with risk of cirrhosis and liver failure 
-PSC,Primary Sclerosing Cholangitis,Rare biliary disease with bile duct strictures and dilatations leading to cholestasis and risk of liver failure and cholangiocarcinoma
-PSO,Psoriasis,Common chronic immune-mediated skin disease, most commonly characterized by well-demarcated erythematous plaques with silver scale
-RA,Rheumatoid Arthritis,Symmetrical inflammatory peripheral polyarthritis of unknown cause, typically progressive with systemic features
-SAR,Sarcoidosis,Multisystem inflammatory granulomatous disorder of unknown cause that may affect any organ (typically lungs skin or lymph nodes) and characterized by noncaseating granulomas
+NAR,Narcolepsy,Common neurological disorder affecting sleep-wake cycles (including daytime sleepiness with cataplexy-hypnagogic hallucinations-and sleep paralysis)
+OA,Osteoarthritis,A progressive-degenerative joint disease-the most common form of arthritis (especially in older persons) causing joint pain and stiffness-typically in hands-knees-hips and spine
+PBC,Primary Biliary Cholangitis,Primary biliary cholangitis (previously referred to as primary biliary cirrhosis) involving immune-mediated destruction of small intralobular bile ducts and cholestasis-with risk of cirrhosis and liver failure 
+PSC,Primary Sclerosing Cholangitis,Rare biliary disease with bile duct strictures and dilatations leading to cholestasis-and risk of liver failure and cholangiocarcinoma
+PSO,Psoriasis,Common chronic immune-mediated skin disease-most commonly characterized by well-demarcated erythematous plaques with silver scale
+RA,Rheumatoid Arthritis,Symmetrical-inflammatory-peripheral polyarthritis of unknown cause-typically progressive with systemic features
+SAR,Sarcoidosis,Multisystem inflammatory granulomatous disorder of unknown cause that may affect any organ (typically lungs-skin-or lymph nodes) and characterized by noncaseating granulomas
 SJO,Sjogren's Syndrome,Chronic autoimmune inflammatory disorder characterized by dry eyes and mouth (reduced lacrimal and salivary gland function)
 SLE,Systemic Lupus Erythematosus,Chronic heterogeneous autoimmune inflammatory disease of unknown cause that can affect virtually every organ
 SSC,Systemic Scleroderma,Multisystem disease characterized by widespread vascular dysfunction and progressive fibrosis of the skin and internal organs
 T1D,Type I Diabetes,Autoimmune destruction of the insulin-producing beta cells in the islets of Langerhans rersulting in a lack of insulin
-UC,Ulcerative Colitis Recurrent inflammation of the large bowel limited to the mucosal layer of the colon and most commonly involving the rectum (may extend in a proximal and continuous fashion to involve other parts of the colon)
-VIT,Vitiligo Patchy loss of skin colouring due to disorder of pigmentation (characterized by well-defined white macules on the skin due to loss of epidermal melanocytes)
+UC,Ulcerative Colitis,Recurrent inflammation of the large bowel-limited to the mucosal layer of the colon and most commonly involving the rectum (may extend in a proximal and continuous fashion to involve other parts of the colon)
+VIT,Vitiligo,Patchy loss of skin colouring due to disorder of pigmentation (characterized by well-defined white macules on the skin due to loss of epidermal melanocytes)
