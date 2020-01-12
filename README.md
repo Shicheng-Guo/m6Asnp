@@ -5,7 +5,7 @@
 cd ~/hpc/project/m6A
 ```
 Timeline: 
-* 2020/01/13: we identifined [5 genes, ACSM5, CDC123, PLEKHA8](./extdata/thyroid) for thyroid cancer based on m6A-eQTL-DGE-OS analysis
+* 2020/01/13: we identifined [5 genes, ACSM5, CDC123](./extdata/thyroid) for thyroid cancer based on m6A-eQTL-DGE-OS analysis
 * 2020/01/12: the [pick.R](pick.R) were built for all cancer or other disease m6A-eQTL picks analysis
 * 2020/01/12: [12 records for breast cancer](extdata/breast/brcaGwas.m6A.eQTL.csv) were identified with GWAS-m6A-eQTL intergrative analysis. 
 * 2020/01/11: merge m6A with eQTL pairs-genes files to pick out `gain-beta>0` and `loss-beta<0` records
