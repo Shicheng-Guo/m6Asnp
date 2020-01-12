@@ -41,35 +41,155 @@ write.table(rlt,file="esophagus.m6A.eQTL.txt",quote=F,col.names = NA,row.names =
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
 pancancermetadge(symbolist,memo="esophagus.m6A.eQTL.pancancer.dge")
 pancancermetaOsHr(symbolist,memo="esophagus.m6A.eQTL.pancancer.hr.os")
-OROSmerge(memo="BRCA")
+OROSmerge(memo="HCC")
 
 
 # liver cancer
-wdir<-"/home/guosa/hpc/project/m6A/hcc"
+memo="HCC"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
 dir.create(wdir)
 setwd(wdir)
 m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Liver.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
 rlt<-rbind(m6A1)
-write.csv(rlt,file="esophagus.m6A.eQTL.csv",quote=F)
-write.table(rlt,file="esophagus.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
-pancancermetadge(symbolist,memo="HCC.m6A.eQTL.pancancer.dge")
-pancancermetaOsHr(symbolist,memo="HCC.m6A.eQTL.pancancer.hr.os")
-OROSmerge(memo="HCC")
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
 
 
 # thyroid cancer
+memo="thyroid"
 setwd("/home/guosa/hpc/project/m6A/")
-wdir<-"/home/guosa/hpc/project/m6A/thca"
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
 dir.create(wdir)
 setwd(wdir)
 m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Thyroid.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
 rlt<-rbind(m6A1)
-write.csv(rlt,file="thyroid.m6A.eQTL.csv",quote=F)
-write.table(rlt,file="thyroid.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
-pancancermetadge(symbolist,memo="thyroid.m6A.eQTL.pancancer.dge")
-pancancermetaOsHr(symbolist,memo="thyroid.m6A.eQTL.pancancer.hr.os")
-OROSmerge(memo="thryoid")
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+
+# lung cancer
+memo="lung"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Lung.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+
+# pancreatic cancer
+memo="pancreatic"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Pancreas.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+# colon cancer
+memo="colon"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Colon_Sigmoid.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+m6A2<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Colon_Transverse.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+m6A3<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Small_Intestine_Terminal_Ileum.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1,m6A2,m6A3)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+# Stomach cancer
+memo="Stomach"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Stomach.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+
+# Ovary cancer
+memo="Ovary"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Ovary.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+
+# Ovary cancer
+memo="Prostate"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Prostate.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+# Skin cancer
+memo="skin"
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-paste("/home/guosa/hpc/project/m6A/",memo,sep="")
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Skin_Not_Sun_Exposed_Suprapubic.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+m6A2<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Skin_Sun_Exposed_Lower_leg.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1,m6A2)
+write.csv(rlt,file=paste(memo,"m6A.eQTL.csv",sep=""),quote=F)
+write.table(rlt,file=paste(memo,"m6A.eQTL.txt",sep=""),quote=F,col.names = NA,row.names = T,sep="\t")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.dge",sep=""))
+pancancermetaOsHr(symbolist,memo=paste(memo,".m6A.eQTL.pancancer.hr.os",sep=""))
+OROSmerge(memo)
+
+
+
+
+
 
 
