@@ -4,21 +4,18 @@ library("metafor")
 library("survival")
 library("survminer")
 
-Symbol2ENSG<-function(Symbol){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+Symbol2ENSG<-function(Symbol,db){
   ENSG<-as.character(db[match(Symbol,db$V4),8])
   ENSG<-na.omit(data.frame(Symbol,ENSG))
   return(ENSG)
 }
-ENSG2Symbol<-function(ENSG){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+ENSG2Symbol<-function(ENSG,db){
   ENSG<-unlist(lapply(strsplit(ENSG,split="[.]"),function(x) x[1]))
   Symbol<-db[match(as.character(ENSG),db$V8),4]
   return(Symbol)
 }
-
-ensg2bed<-function(ENSG){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/hg19/ENSG.ENST.hg19.txt",as.is=T,head=F)
+ensg2bed<-function(ENSG,db){
   ENSG<-unlist(lapply(strsplit(ENSG,split="[.]"),function(x) x[1]))
   bed<-unique(db[db$V5 %in% as.character(ENSG),c(1,2,3,5)])
   return(bed)
@@ -81,8 +78,8 @@ phen$week=phen$time/7
 # xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/rheumatoidarthritis/master/extdata/kegg/93_gene.txt",sep="\t",as.is=T)[,1]
 # xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/epifactors/master/epifactors.txt",sep="\t",as.is=T)[,1]
 # xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/ferroptosis/master/ferroptosis.genelist.txt",sep="\t",as.is=T)[,2]
-
-xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/PANC/master/extdata/PANC754/coexpression/genelist.txt",sep="\t",as.is=T)[,1]
+# xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/PANC/master/extdata/PANC754/coexpression/genelist.txt",sep="\t",as.is=T)[,1]
+xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/m6Asnp/master/m6AeQTLmeta/m6A-eQTL-pick.txt",sep="\t",as.is=T)[,1]
 
 # setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/drug")
 # setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/tfbs/dge")
@@ -93,9 +90,10 @@ xii<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/PANC/master/extd
 # setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/lncRNA")
 # setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/tfbs")
 # setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/epifactor")
-setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/panc754")
+# setwd("/mnt/bigdata/Genetic/Projects/shg047/meta/panc754")
+setwd("/mnt/bigdata/Genetic/Projects/shg047/project/m6A/meta")
 
-ENSG<-Symbol2ENSG(as.character(xii))
+ENSG<-Symbol2ENSG(as.character(xii),db)
 xgene<-c(as.character(ENSG[,2]))
 ii<-na.omit(unique(unlist(lapply(xgene,function(x) grep(x,rownames(input))))))
 ii
@@ -136,7 +134,7 @@ randomEffect<-c(exp(m$TE.random),exp(m$lower.random),exp(m$upper.random),m$pval.
 out<-rbind(out,c(fixedEffect,randomEffect))
 
 # if(! is.na(fixedEffect[4]) & fixedEffect[4]<0.01 & randomEffect[4]<0.01){
-pdf(paste(ENSG2Symbol(rownames(input)[i]),"-",rownames(input)[i],".OS.HR.PANC.pdf",sep=""))
+pdf(paste(ENSG2Symbol(rownames(input)[i],db),"-",rownames(input)[i],".OS.HR.PANC.pdf",sep=""))
 print(rownames(input)[i])
 forest(m,leftlabs = rownames(HR),
        lab.e = "Intervention",
@@ -150,16 +148,16 @@ forest(m,leftlabs = rownames(HR),
        print.I2.ci = TRUE,
        digits.sd = 2,fontsize=9,xlim=c(0.5,2))
 dev.off()
-write.table(HR,file=paste(ENSG2Symbol(rownames(input)[i]),"-",rownames(input)[i],".OS.HR.EACH.txt",sep=""),sep="\t",quote=F,col.names=NA,row.names=T)
+write.table(HR,file=paste(ENSG2Symbol(rownames(input)[i],db),"-",rownames(input)[i],".OS.HR.EACH.txt",sep=""),sep="\t",quote=F,col.names=NA,row.names=T)
 # }
 }
 colnames(out)<-c("TE.fixed","lower.fixed","upper.fixed","pval.fixed","TE.random","lower.random","upper.random","pval.random")
 rownames(out)<-rownames(input)[ii]
 out3<-data.frame(out)
 out3<-out3[order(out3$pval.random),]
-out3$symbol<-as.character(ENSG2Symbol(as.character(rownames(out3))))
+out3$symbol<-as.character(ENSG2Symbol(as.character(rownames(out3)),db))
 
-memo="pan754.os.hr"
+memo="m6A.os.hr"
 
 write.table(out3,file=paste(memo,".tcga.pancancer.meta.pvalue.txt",sep=""),sep="\t",quote=F,col.names = NA,row.names = T)
 write.csv(out3,file=paste(memo,".tcga.pancancer.meta.pvalue.csv",sep=""),quote=F)
