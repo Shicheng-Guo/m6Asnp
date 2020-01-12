@@ -6,7 +6,7 @@ cd ~/hpc/project/m6A
 ```
 Timeline: 
 
-* 2020/01/12: 12 records were identified with GWAS-m6A-eQTL intergrative analysis. 
+* 2020/01/12: [12 records for breast cancer](extdata/breast/brcaGwas.m6A.eQTL.csv) were identified with GWAS-m6A-eQTL intergrative analysis. 
 * 2020/01/11: merge m6A with eQTL pairs-genes files to pick out `gain-beta>0` and `loss-beta<0` records
 * 2020/01/10: download GTEx eqtl data to `/home/guosa/hpc/db/dbSNP153/hg38/dbSNP153.GRCh38p12b.vcf.gz`
 * 2020/01/10: Pan-cancer GWAS and m6SNP collection and check TCGA experssion database to overlap with DGE
