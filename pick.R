@@ -1,3 +1,8 @@
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/OROSmerge.R")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
+
+# breast cancer
 m6A<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Breast_Mammary_Tissue.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
 
 brcagwas1<-read.csv("cminput.1.csv",as.is=T)
@@ -32,11 +37,12 @@ rlt<-rbind(m6A1,m6A2,m6A3)
 
 write.csv(rlt,file="esophagus.m6A.eQTL.csv",quote=F)
 write.table(rlt,file="esophagus.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
+
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
 pancancermetadge(symbolist,memo="esophagus.m6A.eQTL.pancancer.dge")
 pancancermetaOsHr(symbolist,memo="esophagus.m6A.eQTL.pancancer.hr.os")
+OROSmerge(memo="BRCA")
+
 
 # liver cancer
 wdir<-"/home/guosa/hpc/project/m6A/hcc"
@@ -46,30 +52,24 @@ m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Liver.v8.signi
 rlt<-rbind(m6A1)
 write.csv(rlt,file="esophagus.m6A.eQTL.csv",quote=F)
 write.table(rlt,file="esophagus.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
 pancancermetadge(symbolist,memo="HCC.m6A.eQTL.pancancer.dge")
 pancancermetaOsHr(symbolist,memo="HCC.m6A.eQTL.pancancer.hr.os")
+OROSmerge(memo="HCC")
 
 
 # thyroid cancer
 setwd("/home/guosa/hpc/project/m6A/")
-wdir<-"/home/guosa/hpc/project/m6A/hcc"
+wdir<-"/home/guosa/hpc/project/m6A/thca"
 dir.create(wdir)
 setwd(wdir)
 m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Thyroid.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
 rlt<-rbind(m6A1)
 write.csv(rlt,file="thyroid.m6A.eQTL.csv",quote=F)
 write.table(rlt,file="thyroid.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
-source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
 symbolist<-as.character(unique(rlt[,ncol(rlt)]))
 pancancermetadge(symbolist,memo="thyroid.m6A.eQTL.pancancer.dge")
 pancancermetaOsHr(symbolist,memo="thyroid.m6A.eQTL.pancancer.hr.os")
-
-
-
-
+OROSmerge(memo="thryoid")
 
 
