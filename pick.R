@@ -38,4 +38,38 @@ symbolist<-as.character(unique(rlt[,ncol(rlt)]))
 pancancermetadge(symbolist,memo="esophagus.m6A.eQTL.pancancer.dge")
 pancancermetaOsHr(symbolist,memo="esophagus.m6A.eQTL.pancancer.hr.os")
 
+# liver cancer
+wdir<-"/home/guosa/hpc/project/m6A/hcc"
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Liver.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file="esophagus.m6A.eQTL.csv",quote=F)
+write.table(rlt,file="esophagus.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo="HCC.m6A.eQTL.pancancer.dge")
+pancancermetaOsHr(symbolist,memo="HCC.m6A.eQTL.pancancer.hr.os")
+
+
+# thyroid cancer
+setwd("/home/guosa/hpc/project/m6A/")
+wdir<-"/home/guosa/hpc/project/m6A/hcc"
+dir.create(wdir)
+setwd(wdir)
+m6A1<-read.csv("/home/guosa/hpc/project/m6A/GTEx_Analysis_v8_eQTL/Thyroid.v8.signif_variant_gene_pairs.txt.rsid.txt.m6A.txt.pick.csv")
+rlt<-rbind(m6A1)
+write.csv(rlt,file="thyroid.m6A.eQTL.csv",quote=F)
+write.table(rlt,file="thyroid.m6A.eQTL.txt",quote=F,col.names = NA,row.names = T,sep="\t")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetadge.R")
+source("https://raw.githubusercontent.com/Shicheng-Guo/GscRbasement/master/pancancermetaOsHr.R")
+symbolist<-as.character(unique(rlt[,ncol(rlt)]))
+pancancermetadge(symbolist,memo="thyroid.m6A.eQTL.pancancer.dge")
+pancancermetaOsHr(symbolist,memo="thyroid.m6A.eQTL.pancancer.hr.os")
+
+
+
+
+
 
