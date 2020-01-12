@@ -4,24 +4,29 @@ library("metafor")
 library("survival")
 library("survminer")
 
-Symbol2ENSG<-function(Symbol){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+Symbol2ENSG<-function(Symbol,db){
   ENSG<-as.character(db[match(Symbol,db$V4),8])
   ENSG<-na.omit(data.frame(Symbol,ENSG))
   return(ENSG)
 }
-ENSG2Symbol<-function(ENSG){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/ENSG.ENST.ENSP.Symbol.hg19.bed",sep="\t")
+ENSG2Symbol<-function(ENSG,db){
   ENSG<-unlist(lapply(strsplit(ENSG,split="[.]"),function(x) x[1]))
   Symbol<-db[match(as.character(ENSG),db$V8),4]
   return(Symbol)
 }
-
-ensg2bed<-function(ENSG){
-  db<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/AnnotationDatabase/master/hg19/ENSG.ENST.hg19.txt",as.is=T,head=F)
+ensg2bed<-function(ENSG,db){
   ENSG<-unlist(lapply(strsplit(ENSG,split="[.]"),function(x) x[1]))
   bed<-unique(db[db$V5 %in% as.character(ENSG),c(1,2,3,5)])
   return(bed)
+}
+
+chr2num<-function(x){
+x<-output$V1
+x<-gsub("chr","",x)
+x[x=="X"]<-23
+x[x=="Y"]<-24
+return(x)
 }
 
 chr2num<-function(x){
@@ -109,7 +114,7 @@ xxxv<-read.table("https://raw.githubusercontent.com/Shicheng-Guo/m6Asnp/master/m
 # write.csv(out,file="cldn6.kegg.list.csv",quote=F)
 # xxxv<-as.character(xout$Symbol)
 
-ENSG<-Symbol2ENSG(unique(as.character(xxxv)))
+ENSG<-Symbol2ENSG(unique(as.character(xxxv)),db)
 xgene<-c(as.character(ENSG[,2]))
 ii<-na.omit(unique(unlist(lapply(xgene,function(x) grep(x,rownames(input))))))
 
@@ -142,7 +147,7 @@ for(i in ii){
              prediction=F,
              sm="SMD")
 
-  Symbol<-ENSG2Symbol(rownames(input)[i])
+  Symbol<-ENSG2Symbol(rownames(input)[i],db)
   print(c(z,i,as.character(Symbol)))
   pdf(paste(Symbol,"-",rownames(input)[i],".SMD.PANC.pdf",sep=""))
   forest(m,leftlabs = Source,
@@ -162,7 +167,7 @@ rownames(rlt)<-rownames(input)[ii]
 colnames(rlt)<-c("idx","beta","pval","cilb","ciub","i2","tau2")
 rlt2<-data.frame(rlt)
 rlt2<-rlt2[order(rlt2$pval),]
-rlt2$symbol<-as.character(ENSG2Symbol(as.character(rownames(rlt2))))
+rlt2$symbol<-as.character(ENSG2Symbol(as.character(rownames(rlt2))),db)
 head(rlt2)
 
 memo="m6A.dge"
@@ -177,6 +182,12 @@ down<-(subset(rlt2,beta<0 & pval<10^-8))
 write.csv(up,file=paste(memo,".up.tcga.pancancer.smd.meta.pvalue.csv",sep=""),quote=F)
 write.csv(down,file=paste(memo,".down.tcga.pancancer.smd.meta.pvalue.csv",sep=""),quote=F)
 
+dir.create("pick")
+for(i in 1:80){
+x<-paste("cp *-",rownames(rlt2)[i],"*SMD*pdf ./pick",sep="")
+system(x)
+}
+
 # install.packages("CMplot")
 library("CMplot")
 ensg<-read.table("~/hpc/db/hg19/ENSG.hg19.bed")
@@ -186,7 +197,7 @@ cminput<-na.omit(data.frame(SNP=output$V5,Chromosome=chr2num(output$V1),Position
 CMplot(cminput,plot.type="b",memo=paste(memo,".fix",sep=""),LOG10=TRUE,threshold=NULL,file="jpg",dpi=300,file.output=TRUE,verbose=TRUE,width=14,height=6)
 write.table(cminput,file=paste(memo,".pval.manhattan.qqplot.meta.dge.1.txt",sep=""),sep="\t",quote=F,row.name=T,col.names=NA)
 cminput2<-cminput
-cminput2$symbol<-as.character(ENSG2Symbol(as.character(cminput2$SNP)))
+cminput2$symbol<-as.character(ENSG2Symbol(as.character(cminput2$SNP),db))
 write.table(cminput2,file=paste(memo,".pval.manhattan.qqplot.meta.dge.2.txt",sep=""),sep="\t",quote=F,row.name=T,col.names=NA)
 write.csv(cminput2,file=paste(memo,".pval.manhattan.qqplot.meta.dge.2.csv",sep=""),quote=F)
 
