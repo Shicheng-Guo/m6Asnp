@@ -18,4 +18,4 @@ Timeline:
 * 2019/10/26: [293,214 m6A-SNPs](m6Asnp.txt) in [19,461 genes](m6A.gene.txt) were identfied from 9 m6A-var data (mRNA,lncRNA,miRNA..)
 * extract all m6A-SNP: `perl -lane '{print $1 if (/(rs\d+)/)}' Human_*.txt | sort -u > m6Asnp.txt`
 * 2018/12/12: m6AVar! Database of functional variants involved in m6A modification: http://m6avar.renlab.org/
-*
+**
