@@ -2,7 +2,7 @@
 
 
 ```
-cd ~/hpc/project/m6A
+cd ~/hpc/project/m6A/
 ```
 Timeline: 
 
