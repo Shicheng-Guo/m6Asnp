@@ -1,0 +1,252 @@
+1-250
+
+1.	Yang, N. et al. Genetic variants in m6A modification genes are associated with esophageal squamous-cell carcinoma in the Chinese population. Carcinogenesis (2020).
+2.	Tang, C. et al. m(6)A-dependent biogenesis of circular RNAs in male germ cells. Cell Res (2020).
+3.	He, Y. et al. Increased m6A methylation level is associated with the progression of human abdominal aortic aneurysm. Ann Transl Med 7, 797 (2019).
+4.	Zhu, W. et al. Methyltransferase like 3 promotes colorectal cancer proliferation by stabilizing CCNE1 mRNA in an m6A-dependent manner. J Cell Mol Med (2020).
+5.	Wang, J., Zhang, C., He, W. & Gou, X. Effect of m(6)A RNA Methylation Regulators on Malignant Progression and Prognosis in Renal Clear Cell Carcinoma. Front Oncol 10, 3 (2020).
+6.	Wang, Y. et al. m6A Methylation Analysis of Differentially Expressed Genes in Skin Tissues of Coarse and Fine Type Liaoning Cashmere Goats. Front Genet 10, 1318 (2019).
+7.	Chen, S., Zhou, L. & Wang, Y. ALKBH5-mediated m(6)A demethylation of lncRNA PVT1 plays an oncogenic role in osteosarcoma. Cancer Cell Int 20, 34 (2020).
+8.	Liu, L. et al. Correction to: m6A mRNA methylation regulates CTNNB1 to promote the proliferation of hepatoblastoma. Mol Cancer 19, 24 (2020).
+9.	Muthusamy, S. m(6)A mRNA methylation: A pleiotropic regulator of cancer. Gene, 144415 (2020).
+10.	Heng, J. et al. Excessive BCAA regulates fat metabolism partially through the modification of m(6)A RNA methylation in weanling piglets. Nutr Metab (Lond) 17, 10 (2020).
+11.	Liu, T. et al. The m6A reader YTHDF1 promotes ovarian cancer progression via augmenting EIF3C translation. Nucleic Acids Res (2020).
+12.	Li, J., Huang, Y., Cui, Q. & Zhou, Y. m6Acorr: an online tool for the correction and comparison of m(6)A methylation profiles. BMC Bioinformatics 21, 31 (2020).
+13.	Zhu, B. et al. Total Panax notoginseng saponin inhibits vascular smooth muscle cell proliferation and migration and intimal hyperplasia by regulating WTAP/p16 signals via m(6)A modulation. Biomed Pharmacother 124, 109935 (2020).
+14.	Strick, A. et al. The m6A erasers ALKBH5 and FTO are prognostic biomarkers in patients with clear cell renal carcinoma. BJU Int (2020).
+15.	Chen, Y. et al. m(6)A mRNA methylation regulates testosterone synthesis through modulating autophagy in Leydig cells. Autophagy, 1-19 (2020).
+16.	Wanna-Udom, S. et al. The m6A methyltransferase METTL3 contributes to Transforming Growth Factor-beta-induced epithelial-mesenchymal transition of lung cancer cells through the regulation of JUNB. Biochem Biophys Res Commun (2020).
+17.	Shriwas, O. et al. DDX3 modulates cisplatin resistance in OSCC through ALKBH5-mediated m(6)A-demethylation of FOXM1 and NANOG. Apoptosis (2020).
+18.	Lee, Y., Choe, J., Park, O.H. & Kim, Y.K. Molecular Mechanisms Driving mRNA Degradation by m(6)A Modification. Trends Genet (2020).
+19.	Huang, T. et al. YTHDF2 promotes spermagonial adhesion through modulating MMPs decay via m(6)A/mRNA pathway. Cell Death Dis 11, 37 (2020).
+20.	Orouji, E., Peitsch, W.K., Orouji, A., Houben, R. & Utikal, J. Oncogenic Role of an Epigenetic Reader of m(6)A RNA Modification: YTHDF1 in Merkel Cell Carcinoma. Cancers (Basel) 12(2020).
+21.	Li, Z., Li, F., Peng, Y., Fang, J. & Zhou, J. Identification of three m6A-related mRNAs signature and risk score for the prognostication of hepatocellular carcinoma. Cancer Med (2020).
+22.	Parker, M.T. et al. Nanopore direct RNA sequencing maps the complexity of Arabidopsis mRNA processing and m(6)A modification. Elife 9(2020).
+23.	Su, H. et al. Transcriptome-wide map of m(6)A circRNAs identified in a rat model of hypoxia mediated pulmonary hypertension. BMC Genomics 21, 39 (2020).
+24.	Zhao, T.X. et al. Increased m6A RNA modification is related to the inhibition of the Nrf2-mediated antioxidant response in di-(2-ethylhexyl) phthalate-induced prepubertal testicular injury. Environ Pollut 259, 113911 (2020).
+25.	Sui, X. et al. METTL3-mediated m(6)A is required for murine oocyte maturation and maternal-to-zygotic transition. Cell Cycle, 1-14 (2020).
+26.	Zuo, X. et al. M6A-mediated upregulation of LINC00958 increases lipogenesis and acts as a nanotherapeutic target in hepatocellular carcinoma. J Hematol Oncol 13, 5 (2020).
+27.	Zhang, C., Wang, Y., Peng, Y., Xu, H. & Zhou, X. METTL3 regulates inflammatory pain by modulating m(6)A-dependent pri-miR-365-3p processing. FASEB J 34, 122-132 (2020).
+28.	An, S. et al. Integrative network analysis identifies cell-specific trans regulators of m6A. Nucleic Acids Res (2020).
+29.	Tang, B. et al. m(6)A demethylase ALKBH5 inhibits pancreatic cancer tumorigenesis by decreasing WIF-1 RNA methylation and mediating Wnt signaling. Mol Cancer 19, 3 (2020).
+30.	Liang, Y. et al. The roles of m6A RNA modifiers in human cancer. J Chin Med Assoc (2020).
+31.	Xu, H. et al. m(6)A mRNA Methylation Is Essential for Oligodendrocyte Maturation and CNS Myelination. Neuron 105, 293-309 e5 (2020).
+32.	Wang, H.F. et al. BMP2 Modified by the m(6)A Demethylation Enzyme ALKBH5 in the Ossification of the Ligamentum Flavum Through the AKT Signaling Pathway. Calcif Tissue Int (2020).
+33.	Mason, C.E., McIntyre, A.B.R., Gokhale, N.S., Cerchietti, L. & Horner, S.M. Methods and Tools for MeRIP-Seq and Nanopore Detection of m6A(m) Changes. J Biomol Tech 30, S56 (2019).
+34.	Yan, G. et al. m(6)A Methylation of Precursor-miR-320/RUNX2 Controls Osteogenic Potential of Bone Marrow-Derived Mesenchymal Stem Cells. Mol Ther Nucleic Acids 19, 421-436 (2019).
+35.	Zhao, W. et al. Epigenetic Regulation of m(6)A Modifications in Human Cancer. Mol Ther Nucleic Acids 19, 405-412 (2019).
+36.	Sai, L. et al. Distinct m(6)A methylome profiles in poly(A) RNA from Xenopus laevis testis and that treated with atrazine. Chemosphere 245, 125631 (2019).
+37.	Park, M.H., Jeong, E. & Choudhury, M. Mono-(2-Ethylhexyl)phthalate Regulates Cholesterol Efflux via MicroRNAs Regulated m(6)A RNA Methylation. Chem Res Toxicol (2020).
+38.	Marnef, A. & Legube, G. m(6)A RNA modification as a new player in R-loop regulation. Nat Genet 52, 27-28 (2020).
+39.	Liu, L. et al. m(6)A mRNA methylation regulates CTNNB1 to promote the proliferation of hepatoblastoma. Mol Cancer 18, 188 (2019).
+40.	Devaux, Y., Nossent, A.Y. & CA, E.U.-C.C.A. A role for m6A RNA methylation in heart failure development? Eur J Heart Fail 22, 67-69 (2020).
+41.	De Jesus, D.F. et al. m(6)A mRNA Methylation Regulates Human beta-Cell Biology in Physiological States and in Type 2 Diabetes. Nat Metab 1, 765-774 (2019).
+42.	Chen, Y., Zhou, C., Sun, Y., He, X. & Xue, D. m(6)A RNA modification modulates gene expression and cancer-related pathways in clear cell renal cell carcinoma. Epigenomics 12, 87-99 (2020).
+43.	Barranco, C. Viral infection linked to m(6)A alterations in host mRNAs. Nat Rev Mol Cell Biol 21, 64-65 (2020).
+44.	Zhang, Y. et al. m(6)A modification-mediated CBX8 induction regulates stemness and chemosensitivity of colon cancer via upregulation of LGR5. Mol Cancer 18, 185 (2019).
+45.	Berulava, T. et al. Changes in m6A RNA methylation contribute to heart failure progression by modulating translation. Eur J Heart Fail 22, 54-66 (2020).
+46.	Chen, Q.N., Chen, Y., Ji, T.T. & Yu, L. [Research Progress of m6A-Methylation in Acute Leukemia-Review]. Zhongguo Shi Yan Xue Ye Xue Za Zhi 27, 2014-2018 (2019).
+47.	Zou, D. et al. The m(6)A eraser FTO facilitates proliferation and migration of human cervical cancer cells. Cancer Cell Int 19, 321 (2019).
+48.	Chu, C.C., Liu, B., Plangger, R., Kreutz, C. & Al-Hashimi, H.M. m6A minimally impacts the structure, dynamics, and Rev ARM binding properties of HIV-1 RRE stem IIB. PLoS One 14, e0224850 (2019).
+49.	Liu, T., Li, C., Jin, L., Li, C. & Wang, L. The Prognostic Value of m6A RNA Methylation Regulators in Colon Adenocarcinoma. Med Sci Monit 25, 9435-9445 (2019).
+50.	Jin, D. et al. m(6)A mRNA methylation initiated by METTL3 directly promotes YAP translation and increases YAP activity by regulating the MALAT1-miR-1914-3p-YAP axis to induce NSCLC drug resistance and metastasis. J Hematol Oncol 12, 135 (2019).
+51.	Yang, C., Fan, Z. & Yang, J. m(6)A modification of LncRNA MALAT1: A novel therapeutic target for myocardial ischemia-reperfusion injury. Int J Cardiol (2019).
+52.	Gokhale, N.S. et al. Altered m(6)A Modification of Specific Cellular Transcripts Affects Flaviviridae Infection. Mol Cell 77, 542-555 e8 (2020).
+53.	Huang, H., Weng, H. & Chen, J. The Biogenesis and Precise Control of RNA m(6)A Methylation. Trends Genet 36, 44-52 (2020).
+54.	Hu, B.B. et al. N(6)-methyladenosine (m(6)A) RNA modification in gastrointestinal tract cancers: roles, mechanisms, and applications. Mol Cancer 18, 178 (2019).
+55.	Chen, M. et al. m6A RNA methylation regulators can contribute to malignant progression and impact the prognosis of bladder cancer. Biosci Rep 39(2019).
+56.	Cai, J. et al. RNA m(6)A Methyltransferase METTL3 Promotes The Growth Of Prostate Cancer By Regulating Hedgehog Pathway. Onco Targets Ther 12, 9143-9152 (2019).
+57.	Livneh, I., Moshitch-Moshkovitz, S., Amariglio, N., Rechavi, G. & Dominissini, D. The m(6)A epitranscriptome: transcriptome plasticity in brain development and function. Nat Rev Neurosci 21, 36-51 (2020).
+58.	Rockwell, A.L. & Hongay, C.F. The m(6)A Dynamics of Profilin in Neurogenesis. Front Genet 10, 987 (2019).
+59.	Mao, Y. et al. m(6)A in mRNA coding regions promotes translation via the RNA helicase-containing YTHDC2. Nat Commun 10, 5332 (2019).
+60.	Ma, S. et al. The interplay between m6A RNA methylation and noncoding RNA in cancer. J Hematol Oncol 12, 121 (2019).
+61.	Arribas-Hernandez, L. & Brodersen, P. Occurrence and Functions of m(6)A and Other Covalent Modifications in Plant mRNA. Plant Physiol 182, 79-96 (2020).
+62.	Feng, Y. et al. Chronic corticosterone exposure induces liver inflammation and fibrosis in association with m(6)A-linked post-transcriptional suppression of heat shock proteins in chicken. Cell Stress Chaperones 25, 47-56 (2020).
+63.	Jia, R. et al. m(6)A modification suppresses ocular melanoma through modulating HINT2 mRNA translation. Mol Cancer 18, 161 (2019).
+64.	Liu, Z. et al. HLMethy: a machine learning-based model to identify the hidden labels of m(6)A candidates. Plant Mol Biol 101, 575-584 (2019).
+65.	Zhao, X. & Cui, L. Development and validation of a m(6)A RNA methylation regulators-based signature for predicting the prognosis of head and neck squamous cell carcinoma. Am J Cancer Res 9, 2156-2169 (2019).
+66.	Chen, J. et al. METTL14-dependent m6A regulates vascular calcification induced by indoxyl sulfate. Life Sci 239, 117034 (2019).
+67.	Ren, W. et al. Structure and regulation of ZCCHC4 in m(6)A-methylation of 28S rRNA. Nat Commun 10, 5042 (2019).
+68.	Su, Y., Huang, J. & Hu, J. m(6)A RNA Methylation Regulators Contribute to Malignant Progression and Have Clinical Prognostic Impact in Gastric Cancer. Front Oncol 9, 1038 (2019).
+69.	Chao, Y., Shang, J. & Ji, W. ALKBH5-m(6)A-FOXM1 signaling axis promotes proliferation and invasion of lung adenocarcinoma cells under intermittent hypoxia. Biochem Biophys Res Commun 521, 499-506 (2020).
+70.	Liu, J. et al. Landscape and Regulation of m(6)A and m(6)Am Methylome across Human and Mouse Tissues. Mol Cell 77, 426-440 e6 (2020).
+71.	Li, Y. et al. Flexible Binding of m(6)A Reader Protein YTHDC1 to Its Preferred RNA Motif. J Chem Theory Comput 15, 7004-7014 (2019).
+72.	Wang, D.O. Mapping m(6)A and m(1)A with mutation signatures. Nat Methods 16, 1213-1214 (2019).
+73.	Gan, Z. et al. Resveratrol and Curcumin Improve Intestinal Mucosal Integrity and Decrease m(6)A RNA Methylation in the Intestine of Weaning Piglets. ACS Omega 4, 17438-17446 (2019).
+74.	Wang, Y. et al. Integrated analysis of transcriptome-wide m(6)A methylome of osteosarcoma stem cells enriched by chemotherapy. Epigenomics 11, 1693-1715 (2019).
+75.	Paramasivam, A., Priyadharsini, J.V. & Raghunandhakumar, S. Implications of m6A modification in autoimmune disorders. Cell Mol Immunol (2019).
+76.	Baquero-Perez, B. et al. The Tudor SND1 protein is an m(6)A RNA reader essential for replication of Kaposi's sarcoma-associated herpesvirus. Elife 8(2019).
+77.	Yu, J. et al. The m6A methyltransferase METTL3 cooperates with demethylase ALKBH5 to regulate osteogenic differentiation through NF-kappaB signaling. Mol Cell Biochem 463, 203-210 (2020).
+78.	Wang, J. et al. Binding to m(6)A RNA promotes YTHDF2-mediated phase separation. Protein Cell (2019).
+79.	Li, F., Zhang, C. & Zhang, G. m6A RNA Methylation Controls Proliferation of Human Glioma Cells by Influencing Cell Apoptosis. Cytogenet Genome Res 159, 119-125 (2019).
+80.	Wang, Y. et al. TNF-alpha suppresses sweat gland differentiation of MSCs by reducing FTO-mediated m(6)A-demethylation of Nanog mRNA. Sci China Life Sci 63, 80-91 (2020).
+81.	Li, J. et al. m6A demethylase FTO promotes hepatocellular carcinoma tumorigenesis via mediating PKM2 demethylation. Am J Transl Res 11, 6084-6092 (2019).
+82.	Meng, Q. et al. Dissecting the m(6)A methylation affection on afatinib resistance in non-small cell lung cancer. Pharmacogenomics J (2019).
+83.	Lorenz, D.A., Sathe, S., Einstein, J.M. & Yeo, G.W. Direct RNA sequencing enables m(6)A detection in endogenous transcript isoforms at base-specific resolution. RNA 26, 19-28 (2020).
+84.	Ni, W. et al. Long noncoding RNA GAS5 inhibits progression of colorectal cancer by interacting with and triggering YAP phosphorylation and degradation and is negatively regulated by the m(6)A reader YTHDF3. Mol Cancer 18, 143 (2019).
+85.	Yang, X. et al. m(6)A promotes R-loop formation to facilitate transcription termination. Cell Res 29, 1035-1038 (2019).
+86.	Xia, T. et al. The RNA m6A methyltransferase METTL3 promotes pancreatic cancer cell proliferation and invasion. Pathol Res Pract 215, 152666 (2019).
+87.	Luo, J.H. et al. Natural Variation in RNA m(6)A Methylation and Its Relationship with Translational Status. Plant Physiol 182, 332-344 (2020).
+88.	Wang, Q. et al. METTL3-mediated m(6)A modification of HDGF mRNA promotes gastric cancer progression and has prognostic significance. Gut (2019).
+89.	Meng, Y. et al. Genetic variants in m6A modification genes are associated with colorectal cancer risk. Carcinogenesis (2019).
+90.	Paramasivam, A., Vijayashree Priyadharsini, J. & Raghunandhakumar, S. N6-adenosine methylation (m6A): a promising new molecular target in hypertension and cardiovascular diseases. Hypertens Res 43, 153-154 (2020).
+91.	Zhou, P., Wu, M., Ye, C., Xu, Q. & Wang, L. Meclofenamic acid promotes cisplatin-induced acute kidney injury by inhibiting fat mass and obesity-associated protein-mediated m(6)A abrogation in RNA. J Biol Chem 294, 16908-16917 (2019).
+92.	Meyer, K.D. DART-seq: an antibody-free method for global m(6)A detection. Nat Methods 16, 1275-1280 (2019).
+93.	Song, Y. et al. Predict Epitranscriptome Targets and Regulatory Functions of N (6)-Methyladenosine (m(6)A) Writers and Erasers. Evol Bioinform Online 15, 1176934319871290 (2019).
+94.	Li, Y. et al. Molecular characterization and clinical relevance of m(6)A regulators across 33 cancer types. Mol Cancer 18, 137 (2019).
+95.	Zhang, S.Y. et al. FunDMDeep-m6A: identification and prioritization of functional differential m6A methylation genes. Bioinformatics 35, i90-i98 (2019).
+96.	Liu, H. et al. Accurate detection of m(6)A RNA modifications in native RNA sequences. Nat Commun 10, 4079 (2019).
+97.	Li, J. et al. The role of mRNA m(6)A methylation in the nervous system. Cell Biosci 9, 66 (2019).
+98.	Wang, X. et al. m(6)A mRNA methylation controls autophagy and adipogenesis by targeting Atg5 and Atg7. Autophagy, 1-15 (2019).
+99.	Zhou, K.I. et al. Regulation of Co-transcriptional Pre-mRNA Splicing by m(6)A through the Low-Complexity Protein hnRNPG. Mol Cell 76, 70-81 e9 (2019).
+100.	Chen, Y. et al. WTAP facilitates progression of hepatocellular carcinoma via m6A-HuR-dependent epigenetic silencing of ETS1. Mol Cancer 18, 127 (2019).
+101.	Chokkalla, A.K. et al. Transient Focal Ischemia Significantly Alters the m(6)A Epitranscriptomic Tagging of RNAs in the Brain. Stroke 50, 2912-2921 (2019).
+102.	Liu, Q. et al. ZFP217 regulates adipogenesis by controlling mitotic clonal expansion in a METTL3-m(6)A dependent manner. RNA Biol 16, 1785-1793 (2019).
+103.	Cheng, Y. et al. m(6)A RNA Methylation Maintains Hematopoietic Stem Cell Identity and Symmetric Commitment. Cell Rep 28, 1703-1716 e6 (2019).
+104.	Liu, X. et al. Expression patterns and prognostic value of m(6)A-related genes in colorectal cancer. Am J Transl Res 11, 3972-3991 (2019).
+105.	He, H., Wu, W., Sun, Z. & Chai, L. MiR-4429 prevented gastric cancer progression through targeting METTL3 to inhibit m(6)A-caused stabilization of SEC62. Biochem Biophys Res Commun 517, 581-587 (2019).
+106.	Gao, Y. et al. Multivalent m(6)A motifs promote phase separation of YTHDF proteins. Cell Res 29, 767-769 (2019).
+107.	Zhou, L., Tian, S. & Qin, G. RNA methylomes reveal the m(6)A-mediated regulation of DNA demethylase gene SlDML2 in tomato fruit ripening. Genome Biol 20, 156 (2019).
+108.	Baumgarten, S. et al. Transcriptome-wide dynamics of extensive m(6)A mRNA methylation during Plasmodium falciparum blood-stage development. Nat Microbiol 4, 2246-2259 (2019).
+109.	Wei, J. & He, C. Site-specific m(6)A editing. Nat Chem Biol 15, 848-849 (2019).
+110.	Liu, Y. et al. The N(6)-methyladenosine (m(6)A)-forming enzyme METTL3 facilitates M1 macrophage polarization through the methylation of STAT1 mRNA. Am J Physiol Cell Physiol 317, C762-C775 (2019).
+111.	Bushkin, G.G. et al. m(6)A modification of a 3' UTR site reduces RME1 mRNA levels to promote meiosis. Nat Commun 10, 3414 (2019).
+112.	Pandey, R.R. & Pillai, R.S. Counting the Cuts: MAZTER-Seq Quantifies m(6)A Levels Using a Methylation-Sensitive Ribonuclease. Cell 178, 515-517 (2019).
+113.	Edens, B.M. et al. FMRP Modulates Neural Differentiation through m(6)A-Dependent mRNA Nuclear Export. Cell Rep 28, 845-854 e5 (2019).
+114.	Reichel, M., Koster, T. & Staiger, D. Marking RNA: m6A writers, readers, and functions in Arabidopsis. J Mol Cell Biol 11, 899-910 (2019).
+115.	Huang, T. et al. Meclofenamic acid represses spermatogonial proliferation through modulating m(6)A RNA modification. J Anim Sci Biotechnol 10, 63 (2019).
+116.	van Tran, N. et al. The human 18S rRNA m6A methyltransferase METTL5 is stabilized by TRMT112. Nucleic Acids Res 47, 7719-7733 (2019).
+117.	Heck, A.M. & Wilusz, C.J. Small changes, big implications: The impact of m(6)A RNA methylation on gene expression in pluripotency and development. Biochim Biophys Acta Gene Regul Mech 1862, 194402 (2019).
+118.	Fazi, F. & Fatica, A. Interplay Between N (6)-Methyladenosine (m(6)A) and Non-coding RNAs in Cell Development and Cancer. Front Cell Dev Biol 7, 116 (2019).
+119.	Huang, B., Ding, C., Zou, Q., Wang, W. & Li, H. Cyclophosphamide Regulates N6-Methyladenosine and m6A RNA Enzyme Levels in Human Granulosa Cells and in Ovaries of a Premature Ovarian Aging Mouse Model. Front Endocrinol (Lausanne) 10, 415 (2019).
+120.	Wu, R. et al. m(6)A methylation modulates adipogenesis through JAK2-STAT3-C/EBPbeta signaling. Biochim Biophys Acta Gene Regul Mech 1862, 796-806 (2019).
+121.	Ries, R.J. et al. m(6)A enhances the phase separation potential of mRNA. Nature 571, 424-428 (2019).
+122.	Zhang, Z. et al. Single-base mapping of m(6)A by an antibody-independent method. Sci Adv 5, eaax0250 (2019).
+123.	Li, X.C. et al. The m6A demethylase ALKBH5 controls trophoblast invasion at the maternal-fetal interface by regulating the stability of CYR61 mRNA. Theranostics 9, 3853-3865 (2019).
+124.	Rau, K., Rosner, L. & Rentmeister, A. Sequence-specific m(6)A demethylation in RNA by FTO fused to RCas9. RNA 25, 1311-1323 (2019).
+125.	Garcia-Campos, M.A. et al. Deciphering the "m(6)A Code" via Antibody-Independent Quantitative Profiling. Cell 178, 731-747 e16 (2019).
+126.	Miao, W., Chen, J., Jia, L., Ma, J. & Song, D. The m6A methyltransferase METTL3 promotes osteosarcoma progression by regulating the m6A level of LEF1. Biochem Biophys Res Commun 516, 719-725 (2019).
+127.	Lin, W., Xu, H., Wu, Y., Wang, J. & Yuan, Q. In silico genome-wide identification of m6A-associated SNPs as potential functional variants for periodontitis. J Cell Physiol 235, 900-908 (2020).
+128.	Zhang, C. et al. Reduced m6A modification predicts malignant phenotypes and augmented Wnt/PI3K-Akt signaling in gastric cancer. Cancer Med 8, 4766-4781 (2019).
+129.	Deng, R. et al. m(6)A methyltransferase METTL3 suppresses colorectal cancer proliferation and migration through p38/ERK pathways. Onco Targets Ther 12, 4391-4402 (2019).
+130.	Yang, S. et al. m(6)A mRNA demethylase FTO regulates melanoma tumorigenicity and response to anti-PD-1 blockade. Nat Commun 10, 2782 (2019).
+131.	Li, T. et al. METTL3 facilitates tumor progression via an m(6)A-IGF2BP2-dependent mechanism in colorectal carcinoma. Mol Cancer 18, 112 (2019).
+132.	Han, J. et al. METTL3 promote tumor proliferation of bladder cancer by accelerating pri-miR221/222 maturation in m6A-dependent manner. Mol Cancer 18, 110 (2019).
+133.	Gan, H. et al. [Progress in epigenetic modification of mRNA and the function of m6A modification]. Sheng Wu Gong Cheng Xue Bao 35, 775-783 (2019).
+134.	Hao, J. et al. The perturbed expression of m6A in parthenogenetic mouse embryos. Genet Mol Biol 42, 666-670 (2019).
+135.	Mo, X.B., Lei, S.F., Zhang, Y.H. & Zhang, H. Examination of the associations between m(6)A-associated single-nucleotide polymorphisms and blood pressure. Hypertens Res 42, 1582-1589 (2019).
+136.	Gong, D. et al. The m(6)A-suppressed P2RX6 activation promotes renal cancer cells migration and invasion through ATP-induced Ca(2+) influx modulating ERK1/2 phosphorylation and MMP9 signaling pathway. J Exp Clin Cancer Res 38, 233 (2019).
+137.	Wang, J. et al. METTL3/m(6)A/miRNA-873-5p Attenuated Oxidative Stress and Apoptosis in Colistin-Induced Kidney Injury by Modulating Keap1/Nrf2 Pathway. Front Pharmacol 10, 517 (2019).
+138.	Chen, J. et al. m(6)A Regulates Neurogenesis and Neuronal Development by Modulating Histone Methyltransferase Ezh2. Genomics Proteomics Bioinformatics 17, 154-168 (2019).
+139.	Zhou, R. et al. METTL3 mediated m(6)A modification plays an oncogenic role in cutaneous squamous cell carcinoma by regulating DeltaNp63. Biochem Biophys Res Commun 515, 310-317 (2019).
+140.	Li, Y. et al. The dynamics of FTO binding and demethylation from the m(6)A motifs. RNA Biol 16, 1179-1189 (2019).
+141.	Pontier, D. et al. The m(6)A pathway protects the transcriptome integrity by restricting RNA chimera formation in plants. Life Sci Alliance 2(2019).
+142.	Chen, X.Y., Zhang, J. & Zhu, J.S. The role of m(6)A RNA methylation in human cancer. Mol Cancer 18, 103 (2019).
+143.	Rauch, S. & Dickinson, B.C. Targeted m(6)A reader proteins to study the epitranscriptome. Methods Enzymol 621, 1-16 (2019).
+144.	Cheng, X. et al. KIAA1429 regulates the migration and invasion of hepatocellular carcinoma by altering m6A modification of ID2 mRNA. Onco Targets Ther 12, 3421-3428 (2019).
+145.	Chen, J., Wang, C., Fei, W., Fang, X. & Hu, X. Epitranscriptomic m6A modification in the stem cell field and its effects on cell death and survival. Am J Cancer Res 9, 752-764 (2019).
+146.	Zhang, C., Fu, J. & Zhou, Y. A Review in Research Progress Concerning m6A Methylation and Immunoregulation. Front Immunol 10, 922 (2019).
+147.	Heng, J. et al. Maternal heat stress regulates the early fat deposition partly through modification of m(6)A RNA methylation in neonatal piglets. Cell Stress Chaperones 24, 635-645 (2019).
+148.	Lee, H. et al. Stage-specific requirement for Mettl3-dependent m(6)A mRNA methylation during haematopoietic stem cell differentiation. Nat Cell Biol 21, 700-709 (2019).
+149.	Lin, X. et al. RNA m(6)A methylation regulates the epithelial mesenchymal transition of cancer cells and translation of Snail. Nat Commun 10, 2065 (2019).
+150.	Wu, X. et al. m6Acomet: large-scale functional prediction of individual m(6)A RNA methylation sites from an RNA co-methylation network. BMC Bioinformatics 20, 223 (2019).
+151.	Song, T. et al. Zfp217 mediates m6A mRNA methylation to orchestrate transcriptional and post-transcriptional regulation to promote adipogenic differentiation. Nucleic Acids Res 47, 6130-6144 (2019).
+152.	Paris, J. et al. Targeting the RNA m(6)A Reader YTHDF2 Selectively Compromises Cancer Stem Cells in Acute Myeloid Leukemia. Cell Stem Cell 25, 137-148 e6 (2019).
+153.	Ianniello, Z., Paiardini, A. & Fatica, A. N(6)-Methyladenosine (m(6)A): A Promising New Molecular Target in Acute Myeloid Leukemia. Front Oncol 9, 251 (2019).
+154.	Wang, H. et al. Mettl3-mediated mRNA m(6)A methylation promotes dendritic cell activation. Nat Commun 10, 1898 (2019).
+155.	Tang, Y. et al. DRUM: Inference of Disease-Associated m(6)A RNA Methylation Sites From a Multi-Layer Heterogeneous Network. Front Genet 10, 266 (2019).
+156.	Chen, K. et al. WHISTLE: a high-accuracy map of the human N6-methyladenosine (m6A) epitranscriptome predicted using a machine learning approach. Nucleic Acids Res 47, e41 (2019).
+157.	Wu, Y. et al. m(6)A-induced lncRNA RP11 triggers the dissemination of colorectal cancer cells via upregulation of Zeb1. Mol Cancer 18, 87 (2019).
+158.	Kmietczyk, V. et al. m(6)A-mRNA methylation regulates cardiac gene expression and cellular growth. Life Sci Alliance 2(2019).
+159.	Park, O.H. et al. Endoribonucleolytic Cleavage of m(6)A-Containing RNAs by RNase P/MRP Complex. Mol Cell 74, 494-507 e8 (2019).
+160.	Han, D. et al. Author Correction: Anti-tumour immunity controlled through mRNA m(6)A methylation and YTHDF1 in dendritic cells. Nature 568, E3 (2019).
+161.	Li, J. et al. The m6A demethylase FTO promotes the growth of lung cancer cells by regulating the m6A level of USP7 mRNA. Biochem Biophys Res Commun 512, 479-485 (2019).
+162.	Lan, Q. et al. The Critical Role of RNA m(6)A Methylation in Cancer. Cancer Res 79, 1285-1292 (2019).
+163.	Wang, Y. et al. Genome-wide screening of altered m6A-tagged transcript profiles in the hippocampus after traumatic brain injury in mice. Epigenomics 11, 805-819 (2019).
+164.	Oerum, S. et al. Bisubstrate analogues as structural tools to investigate m(6)A methyltransferase active sites. RNA Biol 16, 798-808 (2019).
+165.	Tuncel, G. & Kalkan, R. Importance of m N(6)-methyladenosine (m(6)A) RNA modification in cancer. Med Oncol 36, 36 (2019).
+166.	Zhou, J. et al. Gene signatures and prognostic values of m6A regulators in clear cell renal cell carcinoma - a retrospective study using TCGA database. Aging (Albany NY) 11, 1633-1647 (2019).
+167.	Yu, R., Li, Q., Feng, Z., Cai, L. & Xu, Q. m6A Reader YTHDF2 Regulates LPS-Induced Inflammatory Response. Int J Mol Sci 20(2019).
+168.	Song, H. et al. METTL3 and ALKBH5 oppositely regulate m(6)A modification of TFEB mRNA, which dictates the fate of hypoxia/reoxygenation-treated cardiomyocytes. Autophagy 15, 1419-1437 (2019).
+169.	Huang, H. et al. Histone H3 trimethylation at lysine 36 guides m(6)A RNA modification co-transcriptionally. Nature 567, 414-419 (2019).
+170.	Lobo, J. et al. m(6)A RNA modification and its writer/reader VIRMA/YTHDF3 in testicular germ cell tumors: a role in seminoma phenotype maintenance. J Transl Med 17, 79 (2019).
+171.	Yao, Y. et al. METTL3 inhibits BMSC adipogenic differentiation by targeting the JAK1/STAT5/C/EBPbeta pathway via an m(6)A-YTHDF2-dependent manner. FASEB J 33, 7529-7544 (2019).
+172.	Castellanos-Rubio, A. et al. A novel RT-QPCR-based assay for the relative quantification of residue specific m6A RNA methylation. Sci Rep 9, 4220 (2019).
+173.	Zhuang, M. et al. The m6A reader YTHDF1 regulates axon guidance through translational control of Robo3.1 expression. Nucleic Acids Res 47, 4765-4777 (2019).
+174.	Chen, X. et al. Down-Regulation of m6A mRNA Methylation Is Involved in Dopaminergic Neuronal Death. ACS Chem Neurosci 10, 2355-2363 (2019).
+175.	Fleming, A.M., Nguyen, N.L.B. & Burrows, C.J. Colocalization of m(6)A and G-Quadruplex-Forming Sequences in Viral RNA (HIV, Zika, Hepatitis B, and SV40) Suggests Topological Control of Adenosine N (6)-Methylation. ACS Cent Sci 5, 218-228 (2019).
+176.	Chai, R.C. et al. m(6)A RNA methylation regulators contribute to malignant progression and have clinical prognostic impact in gliomas. Aging (Albany NY) 11, 1204-1225 (2019).
+177.	Yang, F. et al. Dynamic m(6)A mRNA methylation reveals the role of METTL3-m(6)A-CDCP1 signaling axis in chemical carcinogenesis. Oncogene 38, 4755-4772 (2019).
+178.	Wu, R. et al. m(6)A methylation controls pluripotency of porcine induced pluripotent stem cells by targeting SOCS3/JAK2/STAT3 pathway in a YTHDF1/YTHDF2-orchestrated manner. Cell Death Dis 10, 171 (2019).
+179.	Sun, T., Wu, R. & Ming, L. The role of m6A RNA methylation in cancer. Biomed Pharmacother 112, 108613 (2019).
+180.	Pinello, N., Sun, S. & Wong, J.J. Aberrant expression of enzymes regulating m(6)A mRNA methylation: implication in cancer. Cancer Biol Med 15, 323-334 (2018).
+181.	Dahal, U., Le, K. & Gupta, M. RNA m6A methyltransferase METTL3 regulates invasiveness of melanoma cells by matrix metallopeptidase 2. Melanoma Res 29, 382-389 (2019).
+182.	Han, D. et al. Anti-tumour immunity controlled through mRNA m(6)A methylation and YTHDF1 in dendritic cells. Nature 566, 270-274 (2019).
+183.	Wiedmer, L., Eberle, S.A., Bedi, R.K., Sledz, P. & Caflisch, A. A Reader-Based Assay for m(6)A Writers and Erasers. Anal Chem 91, 3078-3084 (2019).
+184.	Berlivet, S., Scutenaire, J., Deragon, J.M. & Bousquet-Antonelli, C. Readers of the m(6)A epitranscriptomic code. Biochim Biophys Acta Gene Regul Mech 1862, 329-342 (2019).
+185.	Cheng, M. et al. The m(6)A methyltransferase METTL3 promotes bladder cancer progression via AFF4/NF-kappaB/MYC signaling network. Oncogene 38, 3667-3680 (2019).
+186.	Zhao, Y.L. et al. Understanding m(6)A Function Through Uncovering the Diversity Roles of YTH Domain-Containing Proteins. Mol Biotechnol 61, 355-364 (2019).
+187.	Winkler, R. et al. Publisher Correction: m6A modification controls the innate immune response to infection by targeting type I interferons. Nat Immunol 20, 243 (2019).
+188.	Furlan, M., Galeota, E., de Pretis, S., Caselle, M. & Pelizzola, M. m6A-Dependent RNA Dynamics in T Cell Differentiation. Genes (Basel) 10(2019).
+189.	Zhang, Y. & Hamada, M. DeepM6ASeq: prediction and characterization of m6A-containing sequences using deep learning. BMC Bioinformatics 19, 524 (2018).
+190.	Vu, L.P., Cheng, Y. & Kharas, M.G. The Biology of m(6)A RNA Methylation in Normal and Malignant Hematopoiesis. Cancer Discov 9, 25-33 (2019).
+191.	Liu, L. et al. Differential m6A methylomes between two major life stages allows potential regulations in Trypanosoma brucei. Biochem Biophys Res Commun 508, 1286-1290 (2019).
+192.	Winkler, R. et al. m(6)A modification controls the innate immune response to infection by targeting type I interferons. Nat Immunol 20, 173-182 (2019).
+193.	Balacco, D.L. & Soller, M. The m(6)A Writer: Rise of a Machine for Growing Tasks. Biochemistry 58, 363-378 (2019).
+194.	Coker, H., Wei, G. & Brockdorff, N. m6A modification of non-coding RNA and the control of mammalian gene expression. Biochim Biophys Acta Gene Regul Mech 1862, 310-318 (2019).
+195.	Hsu, P.J. & He, C. High-Resolution Mapping of N (6)-Methyladenosine Using m(6)A Crosslinking Immunoprecipitation Sequencing (m(6)A-CLIP-Seq). Methods Mol Biol 1870, 69-79 (2019).
+196.	Zhang, P. et al. m(6)A-mediated ZNF750 repression facilitates nasopharyngeal carcinoma progression. Cell Death Dis 9, 1169 (2018).
+197.	Kruttner, S. & Caroni, P. m(6)A-epitranscriptome modulates memory strength. Cell Res 29, 4-5 (2019).
+198.	Wu, R. et al. A novel m(6)A reader Prrc2a controls oligodendroglial specification and myelination. Cell Res 29, 23-41 (2019).
+199.	Chen, J. & Du, B. Novel positioning from obesity to cancer: FTO, an m(6)A RNA demethylase, regulates tumour progression. J Cancer Res Clin Oncol 145, 19-29 (2019).
+200.	Anders, M. et al. Dynamic m(6)A methylation facilitates mRNA triaging to stress granules. Life Sci Alliance 1, e201800113 (2018).
+201.	Wu, Y. et al. Mettl3-mediated m(6)A RNA methylation regulates the fate of bone marrow mesenchymal stem cells and osteoporosis. Nat Commun 9, 4772 (2018).
+202.	Zhong, X. et al. Circadian Clock Regulation of Hepatic Lipid Metabolism by Modulation of m(6)A mRNA Methylation. Cell Rep 25, 1816-1828 e4 (2018).
+203.	Huang, Y., He, N., Chen, Y., Chen, Z. & Li, L. BERMP: a cross-species classifier for predicting m(6)A sites by integrating a deep learning algorithm and a random forest approach. Int J Biol Sci 14, 1669-1677 (2018).
+204.	Manners, O., Baquero-Perez, B. & Whitehouse, A. m(6)A: Widespread regulatory control in virus replication. Biochim Biophys Acta Gene Regul Mech 1862, 370-381 (2019).
+205.	Shi, H. et al. m(6)A facilitates hippocampus-dependent learning and memory through YTHDF1. Nature 563, 249-253 (2018).
+206.	Lence, T., Paolantoni, C., Worpenberg, L. & Roignant, J.Y. Mechanistic insights into m(6)A RNA enzymes. Biochim Biophys Acta Gene Regul Mech 1862, 222-229 (2019).
+207.	Lin, Z. & Tong, M.H. m(6)A mRNA modification regulates mammalian spermatogenesis. Biochim Biophys Acta Gene Regul Mech 1862, 403-411 (2019).
+208.	Muller, S. et al. IGF2BP1 promotes SRF-dependent transcription in cancer in a m6A- and miRNA-dependent manner. Nucleic Acids Res 47, 375-390 (2019).
+209.	Meyer, K.D. m(6)A-mediated translation regulation. Biochim Biophys Acta Gene Regul Mech 1862, 301-309 (2019).
+210.	Jiang, Q. et al. MTCH2 promotes adipogenesis in intramuscular preadipocytes via an m(6)A-YTHDF1-dependent mechanism. FASEB J 33, 2971-2981 (2019).
+211.	Panneerdoss, S. et al. Cross-talk among writers, readers, and erasers of m(6)A regulates cancer growth and progression. Sci Adv 4, eaar8263 (2018).
+212.	Wu, R. et al. FTO regulates adipogenesis by controlling cell cycle progression via m(6)A-YTHDF2 dependent mechanism. Biochim Biophys Acta Mol Cell Biol Lipids 1863, 1323-1330 (2018).
+213.	Fitzsimmons, C.M. & Batista, P.J. It's complicated... m(6)A-dependent regulation of gene expression in cancer. Biochim Biophys Acta Gene Regul Mech 1862, 382-393 (2019).
+214.	Wang, K. & Yi, C. Coupling Transcription and Translation via the Epitranscriptomic m(6)A Mark. Biochemistry 58, 297-298 (2019).
+215.	Mo, X., Lei, S., Zhang, Y. & Zhang, H. Genome-wide enrichment of m(6)A-associated single-nucleotide polymorphisms in the lipid loci. Pharmacogenomics J 19, 347-357 (2019).
+216.	Mo, X.B., Lei, S.F., Zhang, Y.H. & Zhang, H. Detection of m(6)A-associated SNPs as potential functional variants for coronary artery disease. Epigenomics 10, 1279-1287 (2018).
+217.	Lesbirel, S. et al. The m(6)A-methylase complex recruits TREX and regulates mRNA export. Sci Rep 8, 13827 (2018).
+218.	Chen, W., Ding, H., Zhou, X., Lin, H. & Chou, K.C. iRNA(m6A)-PseDNC: Identifying N(6)-methyladenosine sites using pseudo dinucleotide composition. Anal Biochem 561-562, 59-65 (2018).
+219.	Mendel, M. et al. Methylation of Structured RNA by the m(6)A Writer METTL16 Is Essential for Mouse Embryonic Development. Mol Cell 71, 986-1000 e11 (2018).
+220.	Wei, J. et al. Differential m(6)A, m(6)Am, and m(1)A Demethylation Mediated by FTO in the Cell Nucleus and Cytoplasm. Mol Cell 71, 973-985 e5 (2018).
+221.	Rauch, S., He, C. & Dickinson, B.C. Targeted m(6)A Reader Proteins To Study Epitranscriptomic Regulation of Single RNAs. J Am Chem Soc 140, 11974-11981 (2018).
+222.	Liu, J. et al. m(6)A mRNA methylation regulates AKT activity to promote the proliferation and tumorigenicity of endometrial cancer. Nat Cell Biol 20, 1074-1083 (2018).
+223.	Wang, H. et al. Loss of YTHDF2-mediated m(6)A-dependent mRNA clearance facilitates hematopoietic stem cell regeneration. Cell Res 28, 1035-1038 (2018).
+224.	Li, Z. et al. Author Correction: Suppression of m(6)A reader Ythdf2 promotes hematopoietic stem cell expansion. Cell Res 28, 1042 (2018).
+225.	Yang, Y. et al. Glucose Is Involved in the Dynamic Regulation of m6A in Patients With Type 2 Diabetes. J Clin Endocrinol Metab 104, 665-673 (2019).
+226.	Huang, X. & Broxmeyer, H.E. m(6)A reader suppression bolsters HSC expansion. Cell Res 28, 875-876 (2018).
+227.	Mo, X.B., Zhang, Y.H. & Lei, S.F. Genome-Wide Identification of N(6)-Methyladenosine (m(6)A) SNPs Associated With Rheumatoid Arthritis. Front Genet 9, 299 (2018).
+228.	Zhang, F. et al. Fragile X mental retardation protein modulates the stability of its m6A-marked messenger RNA targets. Hum Mol Genet 27, 3936-3950 (2018).
+229.	Tong, J., Flavell, R.A. & Li, H.B. RNA m(6)A modification and its function in diseases. Front Med 12, 481-489 (2018).
+230.	Merkurjev, D. et al. Author Correction: Synaptic N(6)-methyladenosine (m(6)A) epitranscriptome reveals functional partitioning of localized transcripts. Nat Neurosci 21, 1493 (2018).
+231.	Li, Z. et al. Suppression of m(6)A reader Ythdf2 promotes hematopoietic stem cell expansion. Cell Res 28, 904-917 (2018).
+232.	Liu, Z.X., Li, L.M., Sun, H.L. & Liu, S.M. Link Between m6A Modification and Cancers. Front Bioeng Biotechnol 6, 89 (2018).
+233.	Engel, M. et al. The Role of m(6)A/m-RNA Methylation in Stress Response Regulation. Neuron 99, 389-403 e9 (2018).
+234.	Jin, S. et al. m(6)A RNA modification controls autophagy through upregulating ULK1 protein abundance. Cell Res 28, 955-957 (2018).
+235.	Wang, S., Chai, P., Jia, R. & Jia, R. Novel insights on m(6)A RNA methylation in tumorigenesis: a double-edged sword. Mol Cancer 17, 101 (2018).
+236.	Liu, B. et al. A potentially abundant junctional RNA motif stabilized by m(6)A and Mg(2). Nat Commun 9, 2761 (2018).
+237.	Chen, K. et al. Enhancing Epitranscriptome Module Detection from m(6)A-Seq Data Using Threshold-Based Measurement Weighting Strategy. Biomed Res Int 2018, 2075173 (2018).
+238.	Zhang, T., Zhang, S.W., Zhang, L. & Meng, J. trumpet: transcriptome-guided quality assessment of m(6)A-seq data. BMC Bioinformatics 19, 260 (2018).
+239.	Bai, L. et al. m6A Demethylase FTO Regulates Dopaminergic Neurotransmission Deficits Caused by Arsenite. Toxicol Sci 165, 431-446 (2018).
+240.	Mo, X.B., Zhang, Y.H. & Lei, S.F. Genome-wide identification of m(6)A-associated SNPs as potential functional variants for bone mineral density. Osteoporos Int 29, 2029-2039 (2018).
+241.	Kretschmer, J. et al. The m(6)A reader protein YTHDC2 interacts with the small ribosomal subunit and the 5'-3' exoribonuclease XRN1. RNA 24, 1339-1350 (2018).
+242.	Merkurjev, D. et al. Synaptic N(6)-methyladenosine (m(6)A) epitranscriptome reveals functional partitioning of localized transcripts. Nat Neurosci 21, 1004-1014 (2018).
+243.	Correction for Fustin et al., Two Ck1delta transcripts regulated by m6A methylation code for two antagonistic kinases in the control of the circadian clock. Proc Natl Acad Sci U S A 115, E6386 (2018).
+244.	Louloupi, A., Ntini, E., Conrad, T. & Orom, U.A.V. Transient N-6-Methyladenosine Transcriptome Sequencing Reveals a Regulatory Role of m6A in Splicing Efficiency. Cell Rep 23, 3429-3437 (2018).
+245.	Du, K., Zhang, L., Lee, T. & Sun, T. m(6)A RNA Methylation Controls Neural Development and Is Involved in Human Diseases. Mol Neurobiol 56, 1596-1606 (2019).
+246.	Lockhart, J. The Story Continues: Following the Fate of m(6)A Marks in the Eukaryotic Transcriptome. Plant Cell 30, 1385-1386 (2018).
+247.	Chen, M. et al. m(6)A RNA Degradation Products Are Catabolized by an Evolutionarily Conserved N(6)-Methyl-AMP Deaminase in Plant and Mammalian Cells. Plant Cell 30, 1511-1522 (2018).
+248.	Wang, C.X. et al. METTL3-mediated m6A modification is required for cerebellar development. PLoS Biol 16, e2004880 (2018).
+249.	Widagdo, J. & Anggono, V. The m6A-epitranscriptomic signature in neurobiology: from neurodevelopment to brain plasticity. J Neurochem 147, 137-152 (2018).
+250.	Ma, C. et al. RNA m(6)A methylation participates in regulation of postnatal development of the mouse cerebellum. Genome Biol 19, 68 (2018).
